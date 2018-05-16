@@ -10,7 +10,7 @@
     </Grid.RowDefinitions>
     <Button x:Name="BotonMas"
                 Text="+"
-                Style="{StaticResource BotonPal}"
+                BackgroundColor="Orange"
                 >
     </Button>
     <StackLayout Grid.Row="1" 

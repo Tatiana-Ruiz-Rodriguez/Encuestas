@@ -13,7 +13,7 @@ namespace Encuestas
 		{
 			InitializeComponent();
 
-			MainPage = new Encuestas.MainPage();
+            MainPage = new NavigationPage(new EncuestasView());
 		}
 
 		protected override void OnStart ()
